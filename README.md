@@ -1,45 +1,48 @@
 # entrevistaTecnicaFlexxus
 
-Se presenta la entrega de la entrevista tecnica
+Entrega correspondiente a la entrevista técnica.
 
 Tecnologías utilizadas
+*************************************************
+
 Lenguajes :
-*********
 
-NodeJS + TypeScript
-SQL (para consultas a la base de datos)
+* NodeJS + TypeScript
+* SQL (para consultas a la base de datos)
 
+***********************************************
 
 Librerías y Frameworks:
-**********************
 
-Express
-MySQL2
-Dotenv
-Swagger UI Express (si documentaste la API)
+* Express
+* MySQL2
+* Dotenv
+* Swagger UI Express (si documentaste la API)
+
+***********************************************
 
 Base de Datos:
-**************
 
-MySQL
+* MySQL
 
-
+*************************************************
 VARIABLES DE ENTORNO:
-*********************
 
 Se debe crear un archivo .env en la raíz del proyecto con los siguientes datos:
 
-PORT=3000
-DB_HOST=localhost
-DB_PORT=3306
-DB_USER=tu_usuario
-DB_PASSWORD=tu_contraseña
-DB_NAME=nombre_de_la_base
-API_SECRET_TOKEN=123456secreto
+* PORT=3000
+* DB_HOST=localhost
+* DB_PORT=3306
+* DB_USER=tu_usuario
+* DB_PASSWORD=tu_contraseña
+* DB_NAME=nombre_de_la_base
+* API_SECRET_TOKEN=123456secreto
 
-¡A tener en cuenta! 
+****************************************************
+
+# ¡A tener en cuenta! 
+
 Autenticación en las consultas a la API:
-****************************************
 
 Para realizar peticiones a las rutas protegidas de la API, es necesario incluir el token de autorización:
 * En Postman:
@@ -48,6 +51,14 @@ Usar el encabezado HTTP de la siguiente manera: Authorization: Bearer 123456secr
 
 * En Swagger: 
 para acceder a la documentacion: http://localhost:3000/api-docs/
-
 Autenticacion:
 Solo escribir directamente el token sin el prefijo Bearer, es decir: 123456secreto
+
+En la ruta docs\img hay dos imagenes que muestran
+
+* Como se realiza la autenticación en Postman
+* Como se realiza la autenticación en Swagger
+
+
+
+
