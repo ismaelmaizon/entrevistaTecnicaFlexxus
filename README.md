@@ -65,6 +65,18 @@ En la ruta src\5_consultaSQL
 
 se encuentran los 3 archivos donde se creo la base de datos, las tablas, los inserts a las mismas y las consultas solicitadas
 
+# Por ultimo
+
+## proceso de instalacion
+
+luego de descargar el repo
+
+* npm install
+
+* crear el archivo .env segun aclaraciones de mas arriba
+
+* npm run dev
+
 
 
 
