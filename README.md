@@ -59,6 +59,16 @@ En la ruta docs\img hay dos imagenes que muestran
 * Como se realiza la autenticación en Postman
 * Como se realiza la autenticación en Swagger
 
+## Rutas de consultas
+
+* Ejercicio 1 http://localhost:3000/api/numerosImpares
+* Ejercicio 2 POST http://localhost:3000/api/sueldos/insertsueldos (docs\img\insertSueldos.png)
+* Ejercicio 2 GET http://localhost:3000/api/sueldos/verSueldos
+* Ejercicio 3 POST http://localhost:3000/api/alumnos/insertAlumno (docs\img\insertAlumno)
+* Ejercicio 4 GET http://localhost:3000/api/array
+
+## EL Resto de rutas salen en la documentacion de la API (localhost:3000/api-docs/)
+
 ## Ejercicio 5
 
 En la ruta src\5_consultaSQL
