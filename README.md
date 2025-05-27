@@ -42,7 +42,7 @@ Se debe crear un archivo .env en la raíz del proyecto con los siguientes datos:
 
 # ¡A tener en cuenta! 
 
-Autenticación en las consultas a la API:
+## Autenticación en las consultas a la API:
 
 Para realizar peticiones a las rutas protegidas de la API, es necesario incluir el token de autorización:
 * En Postman:
@@ -58,6 +58,13 @@ En la ruta docs\img hay dos imagenes que muestran
 
 * Como se realiza la autenticación en Postman
 * Como se realiza la autenticación en Swagger
+
+## Ejercicio 5
+
+En la ruta src\5_consultaSQL
+
+se encuentran los 3 archivos donde se creo la base de datos, las tablas, los inserts a las mismas y las consultas solicitadas
+
 
 
 
